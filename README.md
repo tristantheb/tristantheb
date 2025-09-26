@@ -21,7 +21,9 @@
 5. Bonne traduction !
     > Je serai peut-être votre relecteur quand vous demanderez la validation de vos modifications ! Ça sera une bonne occasion de travailler ensemble 🤜🏻🤛🏻
 
-[**\> TOUTE L'AIDE POSSIBLE EST LA BIENVENUE <**](https://developer.mozilla.org/fr/docs/MDN/Community/Contributing/Translated_content)
+[**\> TOUTE L'AIDE POSSIBLE EST LA BIENVENUE <**](https://developer.mozilla.org/fr/docs/MDN/Community/Getting_started)
+
+[![Readme Card of MDN](https://github-readme-stats.vercel.app/api/pin/?username=mdn&repo=translated-content&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&hide_border=true&show_owner=true)](https://github.com/mdn/translated-content)
 
 ---
 
@@ -45,7 +47,7 @@
 
 ### Principaux
 
-![tristantheb’s Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tristantheb&theme=blueberry&show_icons=true&hide_border=true&layout=compact)
+![tristantheb’s Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tristantheb&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&show_icons=true&hide_border=true&card_width=300)
 
 ### Usage profesionnel
 
@@ -76,18 +78,17 @@
 
 - Symfony [PHP]
 - Laravel [PHP]
-- React [JS]
+- Node/Next/Nest [JS]
+- React/Vite [JS]
 
 ### Packages les plus utilisés
 
 - Composer [PHP]
-- NPM [JS]
-  - javascript-obfuscator
-  - sass
-  - tailwindcss
+- (P)NPM/Yarn [JS]
+- Docker
 
 ## Mes activités du moment
 
-![tristantheb’s Stats](https://github-readme-stats.vercel.app/api?username=tristantheb&theme=blueberry&show_icons=true&hide_border=true&count_private=true)
+![tristantheb’s Stats](https://github-readme-stats.vercel.app/api?username=tristantheb&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&show_icons=true&hide_border=true&rank_icon=github&count_private=true)
 
 <a rel="me" href="https://piaille.fr/@tristantheb">Mastodon</a>

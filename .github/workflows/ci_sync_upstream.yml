@@ -1,0 +1,38 @@
+name: CI | Sync upstream main
+
+on:
+  schedule:
+    - cron: '0 0,12 * * *'  # Every 12 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-forks:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJson(vars.FORKS_MATRIX) }}
+
+    env:
+      PAT: ${{ secrets.FORKS_PAT }}
+
+    steps:
+      - name: Clone fork
+        run: git clone https://x-access-token:${PAT}@github.com/${{ matrix.fork }}.git repo
+
+      - name: Sync upstream -> push upstream branch to fork (minimal)
+        env:
+          PAT: ${{ secrets.FORKS_PAT }}
+        run: |
+          set -e
+          cd repo
+          git remote remove upstream 2>/dev/null || true
+          git remote add upstream "${{ matrix.upstream }}"
+          git fetch upstream --no-tags --prune
+
+          # Push upstream/<branch> directly to fork's <branch> (will fail if non-fast-forward)
+          git push https://x-access-token:${PAT}@github.com/${{ matrix.fork }}.git refs/remotes/upstream/${{ matrix.branch }}:refs/heads/${{ matrix.branch }}

@@ -1,5 +1,7 @@
 # Profil de Tristan
 
+![](https://komarev.com/ghpvc/?username=tristantheb&color=32cffa&style=for-the-badge&label=VUES+DU+PROFIL&abbreviated=true)
+
 👋🏻 Bonjour, moi c’est Tristan !
 
 👨🏻‍💻 Je suis développeur web et web mobile depuis 2009. J’ai commencé à apprendre le développement web en autodidacte, puis j’ai suivi une formation de développeur web et web mobile en 2020 pour certifier mes compétences.
@@ -23,8 +25,6 @@
 
 [**\> TOUTE L'AIDE POSSIBLE EST LA BIENVENUE <**](https://developer.mozilla.org/fr/docs/MDN/Community/Getting_started)
 
-[![Readme Card of MDN](https://github-readme-stats.vercel.app/api/pin/?username=mdn&repo=translated-content&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&hide_border=true&show_owner=true)](https://github.com/mdn/translated-content)
-
 ---
 
 > [!WARNING]
@@ -47,7 +47,10 @@
 
 ### Principaux
 
-![tristantheb’s Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tristantheb&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&show_icons=true&hide_border=true&card_width=300)
+- PHP
+- JavaScript / TypeScript
+- HTML
+- CSS
 
 ### Usage profesionnel
 
@@ -55,9 +58,10 @@
 
 ### Autres
 
-- Java (Juste un Bot Discord, on se calme je ne maitrise pas du tout ce langage)
+- Java (Juste un Bot Discord, on se calme je ne maîtrise pas du tout ce langage)
 - Python 🐍
 - Lua
+- Fluent
 
 ## Mes outils
 
@@ -89,6 +93,8 @@
 
 ## Mes activités du moment
 
-![tristantheb’s Stats](https://github-readme-stats.vercel.app/api?username=tristantheb&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515&show_icons=true&hide_border=true&rank_icon=github&count_private=true)
+<a href="https://stats.hyo.dev/stats/tristantheb"><img src="https://stats.hyo.dev/api/github-stats-advanced?login=tristantheb" width="600" /></a>
+
+<a href="https://stats.hyo.dev/stats/tristantheb"><img src="https://stats.hyo.dev/api/github-trophies?login=tristantheb" width="600" /></a>
 
 <a rel="me" href="https://piaille.fr/@tristantheb">Mastodon</a>
